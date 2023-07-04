@@ -13,7 +13,7 @@
   font-family: var(--font);
 }
 body {
-  background-color: var(--light);
+  background-color: var(--dark);
 }
 .app {
   display: flex;
@@ -21,7 +21,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  border: 2px solid rebeccapurple;
 }
 .quote {
   position: relative;
@@ -30,7 +29,7 @@ body {
 .character {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  color: var(--light);
+  color: var(--dark);
   border-radius: 1.5rem;
   font-size: 1.4rem;
   letter-spacing: 1px;
@@ -38,6 +37,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  cursor: pointer;
 }
 .title {
   background-color: var(--secondary);
@@ -46,7 +46,7 @@ body {
 }
 .character {
   background-color: var(--primary);
-  font-weight: 600;
+  font-weight: 400;
   transform: translate(-25%, 50%);
   position: absolute;
   right: 0;
@@ -55,10 +55,10 @@ body {
 blockquote{
   max-width: 720px;
   font-size: 2rem;
-  background-color: var(--dark);
+  background-color: var(--light);
   padding: 3rem;
   border-radius: 1.5rem;
-  color: #fff;
+  color:navy;
   width: 100%;
 }
 button{
@@ -69,8 +69,7 @@ button{
   color: var(--light);
   padding: 0.75rem 1.5rem;
   border-radius: 3rem;
-  margin-top: -23px;
-  z-index: 1;
+  margin-top: 48px;
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 500;
